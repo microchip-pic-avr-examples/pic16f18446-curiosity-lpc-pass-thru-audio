@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-            label pic16f18446-curiosity-lpc-pass-thru-audio'
+            label 'pic16f18446-curiosity-lpc-pass-thru-audio'
 			defaultContainer 'xc8-mplabx'
             yamlFile 'cloudprovider.yml'
         }
